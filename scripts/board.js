@@ -59,7 +59,7 @@ function generateRandomCactus(){
 
 let cactusArray = [];
 function loadCactus(){
-    const cactusArr = ['../assets/LargeCactus1.png' , '../assets/LargeCactus2.png' , '../assets/LargeCactus3.png'];
+    const cactusArr = ['./assets/LargeCactus1.png' , './assets/LargeCactus2.png' , './assets/LargeCactus3.png'];
     let gap = 1;
     for(var c of cactusArr){
         const cactus = new Cactus(GAME_WIDTH * gap , GAME_HEIGHT-20 , 40 , 71 , c);
