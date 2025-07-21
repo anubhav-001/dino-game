@@ -7,7 +7,7 @@ export default class Floor{
         this.w = 2400;
         this.y = GAME_HEIGHT - 60;
         this.image = new Image();
-        this.image.src = '../assets/Track.png';
+        this.image.src = './assets/Track.png';
         this.speed = SPEED;
     }
     draw(context){
