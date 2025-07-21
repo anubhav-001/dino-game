@@ -8,7 +8,7 @@ export default class Player{
         this.y = GAME_HEIGHT - this.h - 20;
         this.image = new Image();
         // this.image.src = '../assets/dinoStart.png';
-        this.runImages = ['../assets/DinoRun1.png' , '../assets/DinoRun2.png'];
+        this.runImages = ['./assets/DinoRun1.png' , './assets/DinoRun2.png'];
         this.index = 0;
         this.image.src = this.runImages[this.index];
         this.isJumping = false;
